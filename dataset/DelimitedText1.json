@@ -9,7 +9,8 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"container": "app-package-function-hackhathon-group3-b7dd8f1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
