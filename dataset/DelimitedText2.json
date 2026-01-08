@@ -1,0 +1,67 @@
+{
+	"name": "DelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "app-package-function-hackhathon-group3-b7dd8f1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "job",
+				"type": "String"
+			},
+			{
+				"name": "marital",
+				"type": "String"
+			},
+			{
+				"name": "education",
+				"type": "String"
+			},
+			{
+				"name": "default",
+				"type": "String"
+			},
+			{
+				"name": "housing",
+				"type": "String"
+			},
+			{
+				"name": "loan",
+				"type": "String"
+			},
+			{
+				"name": "contact",
+				"type": "String"
+			},
+			{
+				"name": "month",
+				"type": "String"
+			},
+			{
+				"name": "day_of_week",
+				"type": "String"
+			},
+			{
+				"name": "unique_id",
+				"type": "String"
+			}
+		]
+	}
+}
