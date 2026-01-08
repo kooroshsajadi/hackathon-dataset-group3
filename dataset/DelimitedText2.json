@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "bank_users_info_group_b.csv",
+				"folderPath": "kooroshsajadi/hackathon-dataset-group3/refs/heads/main",
 				"container": "app-package-function-hackhathon-group3-b7dd8f1"
 			},
 			"columnDelimiter": ",",
