@@ -111,14 +111,8 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "GroupA",
-						"type": "DatasetReference",
-						"parameters": {
-							"relative_url": {
-								"value": "@pipeline().parameters.source2",
-								"type": "Expression"
-							}
-						}
+						"referenceName": "GroupB",
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
