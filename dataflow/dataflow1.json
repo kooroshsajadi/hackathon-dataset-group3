@@ -23,9 +23,6 @@
 			"transformations": [
 				{
 					"name": "join1"
-				},
-				{
-					"name": "union1"
 				}
 			],
 			"scriptLines": [
@@ -65,8 +62,7 @@
 				"     joinType:'outer',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
-				"     broadcast: 'auto')~> join1",
-				"join1, source2 union(byName: true)~> union1"
+				"     broadcast: 'auto')~> join1"
 			]
 		}
 	}
