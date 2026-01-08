@@ -60,6 +60,16 @@
 				]
 			}
 		],
+		"parameters": {
+			"source1": {
+				"type": "string",
+				"defaultValue": "/hackathon-dataset-group3/refs/heads/main/bank_users_info_group_a.csv"
+			},
+			"source2": {
+				"type": "string",
+				"defaultValue": "/hackathon-dataset-group3/refs/heads/main/bank_users_info_group_b.csv"
+			}
+		},
 		"annotations": []
 	}
 }
